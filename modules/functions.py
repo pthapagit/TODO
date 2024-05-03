@@ -29,7 +29,6 @@ class Functions:
         contents = self.read_file()
         for index, item in enumerate(contents):
             item = item.strip('\n')
-            print(f'{index + 1}-{item}')
 
     def edit_todo(self):
         self.show_todos()

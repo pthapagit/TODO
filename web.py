@@ -4,7 +4,6 @@ from modules.functions import Functions
 todo_function = Functions()
 st.title('_My To-do App_ :heavy_check_mark:')
 my_todos = todo_function.read_file()
-print(my_todos)
 
 
 def add_todo():
@@ -33,6 +32,3 @@ text_input = st.text_input(
     key='new_todo',
 
 )
-
-
-st.session_state
